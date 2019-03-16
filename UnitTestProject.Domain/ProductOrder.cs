@@ -20,7 +20,10 @@ namespace UnitTestProject.Domain
                 _TotalPrice = Price * Quantity;
                 return _TotalPrice;
             }
+            set
+            {
+                _TotalPrice = value;
+            }
         }
-
     }
 }
