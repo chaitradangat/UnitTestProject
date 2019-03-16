@@ -12,12 +12,6 @@ namespace UnitTestProject.Console
                                     .WithSeasonDiscount()
                                     .WithSpecialDiscount()
                                     .Build();
-
-
-
-
-
-
         }
     }
 }
