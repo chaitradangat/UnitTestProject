@@ -7,12 +7,32 @@ namespace UnitTestProject.Domain
     public class ProductOrderFactory
     {
         private int _ProductID;
+        public int ProductID
+        {
+            get { return _ProductID; }
+            private set { _ProductID = value; }
+        }
 
         private string _ProductName;
+        public string ProductName
+        {
+            get { return _ProductName; }
+            private set { _ProductName = value; }
+        }
 
         private decimal _Price;
+        public decimal Price
+        {
+            get { return _Price; }
+            private set { _Price = value; }
+        }
 
         private decimal _Quantity;
+        public decimal Quantity
+        {
+            get { return _Quantity; }
+            private set { _Quantity = value; }
+        }
 
         public ProductOrderFactory(int ProductID, string ProductName, decimal Price, decimal Quantity)
         {
