@@ -22,6 +22,7 @@ namespace UnitTestProject.Domain
             }
             set
             {
+                Price = value / Quantity;
                 _TotalPrice = value;
             }
         }
